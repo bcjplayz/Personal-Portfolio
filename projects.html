@@ -6,6 +6,7 @@
     <title>Projects | My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/49479a09cf.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
@@ -41,13 +42,24 @@
     </ul>
     <br>
     <section>
-    <a href="https://bcjplayz.github.io/webTest/">Persona Website | (June 2026)</a>
+    <a href="https://bcjplayz.github.io/webTest/"><h2>Persona Website | June 2026</h2></a>
     <br>
-    <img src="P3Screengrab.png" width="69%" alt="Screenshot of my Persona Website">
-    <img src="P4Screengrab.png" width="69%" alt="Screenshot of my Persona Website">
-    <img src="P5Screengrab.png" width="69%" alt="Screenshot of my Persona Website">
+    <div id="persona-carousel" aria-label="Persona website screenshots">
+        <button id="previous-slide" type="button" aria-label="Previous screenshot">←</button>
+        <img class="persona-slide active" src="P3Screengrab.png" alt="Persona website screenshot 3">
+        <img class="persona-slide" src="P4Screengrab.png" alt="Persona website screenshot 4">
+        <img class="persona-slide" src="P5Screengrab.png" alt="Persona website screenshot 5">
+        <button id="next-slide" type="button" aria-label="Next screenshot">→</button>
+    </div>
     <br>
     <br>
     <h3>My first project, this is a website about the Persona games. It has a lot of information about the games and characters, and is a great example of my skills in web development.</h3>
+    <br>
+    <ul>
+        <li>Fully responsive</li>
+        <li>Custom HTML and CSS</li>
+        <li>Interactive features and navigation</li>
+    </ul>
+    </section>
 </body>
 </html>
