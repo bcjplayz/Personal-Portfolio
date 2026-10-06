@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
 body{
     background-color: rgb(39, 39, 39);
     color: white;
-    font-family: 'Inter', sans-serif;
 }
 
 .topnav{
@@ -11,8 +15,10 @@ body{
     padding: 1rem;
 }
 
-.topnav:hover{
+.topnav h1:hover{
     color: blueviolet;
+    transition: 0.3s;
+    transition:all 0.2s ease-in;
 }
 
 a{
@@ -20,3 +26,4 @@ a{
     text-decoration: none;
     margin-right: 1rem;
 }
+
