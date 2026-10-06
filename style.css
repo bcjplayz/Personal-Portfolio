@@ -18,7 +18,7 @@ body{
 .topnav h1:hover{
     color: blueviolet;
     transition: 0.3s;
-    transition:all 0.2s ease-in;
+    transition:all 0.2s ease-in-out;
 }
 
 a{
@@ -27,3 +27,8 @@ a{
     margin-right: 1rem;
 }
 
+a:hover{
+    color: blueviolet;
+    transition: 0.3s;
+    transition:all 0.2s ease-in-out;
+}
