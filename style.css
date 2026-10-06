@@ -13,10 +13,12 @@ body{
 .topnav{
     background-color: #2c2c2c;
     padding: 1rem;
+    -webkit-box-shadow: 0px 16px 30px -10px #56E22B; 
+    box-shadow: 0px 16px 30px -10px #56E22B;
 }
 
-.topnav h1:hover{
-    color: blueviolet;
+.topnav h1:not(.no-hover):hover{
+    color: rgb(86, 226, 43);
     transition: 0.3s;
     transition:all 0.2s ease-in-out;
 }
@@ -28,7 +30,14 @@ a{
 }
 
 a:hover{
-    color: blueviolet;
+    color: rgb(86, 226, 43);
     transition: 0.3s;
     transition:all 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a {
+        display: block;
+        margin: 0.5rem 0;
+    }
 }
