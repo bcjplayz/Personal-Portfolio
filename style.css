@@ -66,6 +66,9 @@ body{
 a{
     color: white;
     text-decoration: none;
+}
+
+.nav-links a {
     margin-right: 1rem;
 }
 
@@ -80,10 +83,128 @@ a:hover{
     gap: 1rem;
 }
 
+.skills-page {
+    width: min(900px, 100%);
+    margin: 2rem auto;
+}
+
+.skills-card {
+    margin-bottom: 1rem;
+    padding: clamp(1.25rem, 3vw, 2rem);
+    border: 1px solid rgba(86, 226, 43, 0.25);
+    border-radius: 0.75rem;
+    background-color: #2c2c2c;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.16);
+}
+
+.skills-intro {
+    border-left: 4px solid #56e22b;
+}
+
+.home-page {
+    width: min(900px, calc(100% - 2rem));
+    margin: clamp(3rem, 9vw, 7rem) auto 3rem;
+}
+
+.home-hero {
+    max-width: 720px;
+    padding: clamp(1.5rem, 5vw, 3rem) 0;
+}
+
+
+/* the text above the main heading */
+.home-eyebrow {
+    margin-bottom: 1rem;
+    color: #56e22b;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.home-hero h1 {
+    font-size: clamp(2.75rem, 8vw, 5rem);
+    line-height: 1.05;
+}
+
+.home-intro {
+    max-width: 620px;
+    margin-top: 1.5rem;
+    color: #dedede;
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    line-height: 1.7;
+}
+
+.home-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    margin-top: 1.75rem;
+}
+
+.home-button {
+    display: inline-block;
+    padding: 0.75rem 1rem;
+    border-radius: 0.4rem;
+    background-color: #56e22b;
+    color: #1b1b1b;
+    font-weight: 700;
+}
+
+.home-button:hover {
+    background-color: #70f24b;
+    color: #1b1b1b;
+}
+
+.home-text-link {
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}
+
+.home-details {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.home-card {
+    padding: 1.5rem;
+    border: 1px solid rgba(86, 226, 43, 0.22);
+    border-radius: 0.65rem;
+    background-color: #2c2c2c;
+}
+
+.home-card h2 {
+    margin-bottom: 0.75rem;
+    font-size: 1.2rem;
+}
+
+.home-card p {
+    color: #dedede;
+    line-height: 1.6;
+}
+
+.home-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    padding: 1.25rem 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.home-footer a {
+    color: #56e22b;
+}
+
 #persona-carousel {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 0.75rem;
 }
 
@@ -96,7 +217,6 @@ a:hover{
     display: block;
 }
 
-#previous-slide,
 #next-slide {
     border: 0;
     background: transparent;
@@ -182,6 +302,15 @@ a:hover{
 
     .contact {
         flex-direction: column;
+    }
+
+    .home-page {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .home-card {
+        padding: 1rem;
     }
 }
 
