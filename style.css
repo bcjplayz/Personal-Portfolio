@@ -255,8 +255,22 @@ a:hover{
 }
 
 @media screen and (min-width: 601px) {
+    .nav-links .social-link {
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size: 2.5rem;
+    }
+
+    .nav-links .social-link--github {
+        right: 9.5rem;
+    }
+
+    .nav-links .social-link--instagram {
+        right: 5.75rem;
+    }
+
     .nav-links .social-link i {
-        font-size: 200px;
+        font-size: 3.5rem;
     }
 }
 
