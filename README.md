@@ -47,6 +47,13 @@ This project serves as both a personal portfolio and an ongoing demonstration of
 
 As I create new websites and improve my front-end abilities, this portfolio will be updated with new projects and examples of my work.
 
+# Socials
+
+Instagram: https://instagram.com/bcjplayz?srtk=OGh2b2lhdTNmMGJm
+
+Facebook:
+https://www.facebook.com/share/1anSyQsSFj/
+
 # Status
 
 🚧 Work in Progress
